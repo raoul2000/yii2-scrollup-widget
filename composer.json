@@ -1,0 +1,29 @@
+{
+	"name" : "raoul2000/yii2-scrollup-widget",
+	"description" : "Wrapper around the Scrollup JQuery plugin",
+	"type" : "yii2-extension",
+	"keywords" : [
+		"yii2",
+		"extension",
+		"jquery",
+		"plugin",
+		"scroll"
+	],
+	"license" : "BSD-3-Clause",
+	"authors" : [{
+			"name" : "Raoul",
+			"email" : "raoul.boulard@gmail.com"
+		}
+	],
+	"require" : {
+		"yiisoft/yii2" : "*"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"raoul2000\\widget\\scrollup\\" : ""
+		}
+	},
+	"support" : {
+		"issues" : "https://github.com/raoul2000/yii2-scrollup-widget/issues"
+	}
+}
