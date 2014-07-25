@@ -1,6 +1,6 @@
 yii2-scrollup-widget
 ==========================
-Wrapper around "Scroll Up", a "*lightweight jQuery plugin to create a customisable “Scroll to top” feature that will work with any website, with ease*. 
+Wrapper around "Scroll Up", a "*lightweight jQuery plugin to create a customisable "Scroll to top" feature that will work with any website, with ease*. 
 
 Check out the  [ScrollUp Demo page](http://markgoodyear.com/labs/scrollup/) for demo of the Plugin and don't forget to have a look
 to the [scrollUp jQuery plugin Home page](http://markgoodyear.com/2013/01/scrollup-jquery-plugin/).
@@ -52,7 +52,7 @@ ScrollUp::widget([
 
 ?>
 ```
-If you wish to use your own styling for the scroll-up, just remove the 'theme' option and provide the requires CSS style.
+If you wish to use your own styling for the scroll-up, just remove the 'theme' option and provide the required CSS style.
 
 For more information on the plugin options and usage, please refer to [scrollUp jQuery plugin Home page](http://markgoodyear.com/2013/01/scrollup-jquery-plugin/).
 
