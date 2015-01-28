@@ -34,16 +34,16 @@ Once the extension is installed, simply use it in your code by :
 ```php
 <?php 
 	 		
-use raoul2000\widget\scrollup\ScrollUp;
+use raoul2000\widget\scrollup\Scrollup;
  
 ScrollUp::widget([
 	'theme' => ScrollUp::THEME_IMAGE,
 	'pluginOptions' => [
 		'scrollText' => "To top", // Text for element
-		'scrollName'=> 'scrollUp', // Element ID
+		'scrollName'=> 'scrollup', // Element ID
 		'topDistance'=> 400, // Distance from top before showing element (px)
 		'topSpeed'=> 3000, // Speed back to top (ms)
-		'animation' => ScrollUp::ANIMATION_SLIDE, // Fade, slide, none
+		'animation' => Scrollup::ANIMATION_SLIDE, // Fade, slide, none
 		'animationInSpeed' => 200, // Animation in speed (ms)
 		'animationOutSpeed'=> 200, // Animation out speed (ms)
 		'activeOverlay' => false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
