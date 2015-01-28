@@ -36,8 +36,8 @@ Once the extension is installed, simply use it in your code by :
 	 		
 use raoul2000\widget\scrollup\Scrollup;
  
-ScrollUp::widget([
-	'theme' => ScrollUp::THEME_IMAGE,
+Scrollup::widget([
+	'theme' => Scrollup::THEME_IMAGE,
 	'pluginOptions' => [
 		'scrollText' => "To top", // Text for element
 		'scrollName'=> 'scrollup', // Element ID
