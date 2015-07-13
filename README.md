@@ -40,7 +40,7 @@ Scrollup::widget([
 	'theme' => Scrollup::THEME_IMAGE,
 	'pluginOptions' => [
 		'scrollText' => "To top", // Text for element
-		'scrollName'=> 'scrollup', // Element ID
+		'scrollName'=> 'scrollUp', // Element ID
 		'topDistance'=> 400, // Distance from top before showing element (px)
 		'topSpeed'=> 3000, // Speed back to top (ms)
 		'animation' => Scrollup::ANIMATION_SLIDE, // Fade, slide, none
