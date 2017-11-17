@@ -98,7 +98,7 @@ class Scrollup extends Widget
             $path = $view->getAssetManager()->publish(__DIR__ . '/assets/css/themes');
             $view->registerCSSFile($path[1] . '/' . $this->theme . '.css');
 
-            if ($this->theme == 'image' && isset($this->pluginOptions['scrollText'])) {
+            if ('image' === $this->theme && isset($this->pluginOptions['scrollText'])) {
                 $this->pluginOptions['scrollText'] = '';
             }
         }
